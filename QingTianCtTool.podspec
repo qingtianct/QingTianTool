@@ -19,16 +19,15 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.ios.deployment_target = "8.0"
   s.summary      = "tool"
-  s.homepage     = "http://EXAMPLE/QingTianCtTool"
+  s.homepage     = "http://github.com/qingtianct/QingTianCtTool"
   s.social_media_url = 'https://cpei.top'
   #s.license      = "MIT (example)"
-  s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
-  s.author       = { "zyq" => "1295890900@qq.com" }
+  s.license    = { :type => "MIT", :file => "LICENSE" }
+  s.author       = { "QingTianCT" => "1295890900@qq.com" }
   s.source       = { :git => "https://github.com/qingtianct/QingTianTool.git", :tag => "#{s.version}" }
   s.requires_arc = true
   s.source_files = 'ModelTool/*'
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "DateHelper"
   s.source_files = 'ModelTool/*'
   #s.public_header_files = 'ModelTool/DateHelper.h'
 
@@ -38,8 +37,8 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  #s.description  = <<-DESC
+  #                 DESC
 
   #s.homepage     = "http://EXAMPLE/QingTianCtTool"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
