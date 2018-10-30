@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.ios.deployment_target = "8.0"
   s.summary      = "tool"
-  s.homepage     = "http://github.com/qingtianct/QingTianCtTool"
-  s.social_media_url = 'https://cpei.top'
+  s.homepage     = "https://github.com/qingtianct/QingTianTool"
+  s.social_media_url = 'https://www.cnblogs.com/ct520cp'
   #s.license      = "MIT (example)"
   s.license    = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "QingTianCT" => "1295890900@qq.com" }
